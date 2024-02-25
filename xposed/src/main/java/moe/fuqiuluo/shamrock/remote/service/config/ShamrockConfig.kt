@@ -212,7 +212,7 @@ internal object ShamrockConfig {
     }
 
     fun isDev(): Boolean {
-        return mmkv.getBoolean("dev", false)
+        return true
     }
 
     operator fun set(key: String, value: String) {
